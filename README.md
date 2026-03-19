@@ -26,7 +26,7 @@ System Hardening: Additional security modules such as USBGuard, auditd, fail2ban
 3. Identity Management & Profile Hierarchy
 The system architecture is divided into isolated profiles, configured via automation scripts to ensure compliance with corporate policies. At the heart of this architecture lies the Seed—the initial digital entity cultivated specifically to become the nourishment for the pupa. Its configuration is not carried forward; it is dissolved, ensuring that no legacy vulnerabilities persist into the new, hardened identity.
 
-3.1 The Restricted User Profile (e.g., "Market")
+3. 1 The Restricted User Profile (e.g., "Market")
 This profile operates under a kernel‑level jail architecture, where security relies not on the interface but on filesystem attributes and surgical execution policies:
 
 Persistence Attributes (Append‑only): The kernel attribute +a is applied to critical directories (Desktop, Documents, Downloads, Pictures). This state permits the creation of new files and data addition but strictly prohibits deletion or renaming, guaranteeing the forensic integrity of every session.
@@ -45,7 +45,7 @@ Evidence Deposit (Trash_Dropbox): A directory configured with the sticky bit (+t
 
 Forced Network Redirection: iptables rules force all DNS traffic towards secure nodes (Cloudflare Gateway, 1.1.1.2), preventing traffic leaks outside the VPN or the use of alternative DNS servers.
 
-3.2 The Administrative Profile (e.g., "Manager")
+3. 2 The Administrative Profile (e.g., "Manager")
 The administrative user possesses full privileges and remote monitoring tools:
 
 Unilateral Remote Access: AnyDesk is integrated with silent authentication. The restricted user receives no notification nor must accept the connection; the administrator can connect at any time using a unique password generated randomly during deployment and stored encrypted.
@@ -105,3 +105,46 @@ Pinch → zoom in compatible applications
 File Manager (Dolphin): Configured with an editable location bar, hidden files shown by default, and icon view as the default, matching Windows Explorer.
 
 
+
+
+
+
+
+
+
+## 🦋 Licensing & Commercial Use
+
+**Micpapalotlan** is an open-source project available under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+### For Open Source & Community Use
+
+The AGPL-3.0 license allows you to freely use, modify, and distribute this software, provided that any modifications or network services using it are also made available under the same license [citation:4][citation:8]. This fosters collaboration and ensures that improvements benefit the entire community.
+
+- ✅ Free to use, modify, and share
+- ✅ Source code always available
+- ✅ Contributions must remain open (copyleft)
+
+### For Commercial & Private Use
+
+**Do you need to use Micpapalotlan in a proprietary, closed-source environment?** We offer **commercial licenses** designed for businesses that require:
+
+- 🔒 **Full privacy** – Keep your modifications proprietary without the obligation to disclose source code
+- 💼 **Commercial integration** – Incorporate into your own products and services
+- ⚖️ **Legal clarity** – Custom terms tailored to your specific needs
+- 🛡️ **Liability & warranty options** – Standard open-source licenses are provided "AS IS" without warranty [citation:1][citation:7]; commercial terms can include these protections
+- 📞 **Priority support** – Direct assistance from the creator
+
+Commercial licenses are available on a **monthly subscription basis**, with terms that can be customized to fit your business requirements.
+
+### 📧 Contact for Commercial Licensing
+
+If you're interested in a commercial license or have any questions about how Micpapalotlan can serve your business, please reach out:
+
+- **Email**: [Fuku.Cobweb160@passfwd.com]
+- **Subject**: "Commercial License Inquiry"
+
+We'll work with you to find a solution that protects your intellectual property while giving you the powerful tools Micpapalotlan provides.
+
+---
+
+*Micpapalotlan is committed to supporting both the open-source community and commercial enterprises. Your success is our success.* 🦋✨
