@@ -104,15 +104,9 @@ Three fingers left/right → switch between virtual desktops
 Pinch → zoom in compatible applications
 
 File Manager (Dolphin): Configured with an editable location bar, hidden files shown by default, and icon view as the default, matching Windows Explorer.
-
-
-
-
-
-
-
-
-
+#
+#
+#
 ## 🦋 Licensing & Commercial Use
 
 **Micpapalotlan** is an open-source project available under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
