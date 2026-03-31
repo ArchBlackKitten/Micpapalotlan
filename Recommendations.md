@@ -13,6 +13,7 @@ The definitive stack for modern debugging and rapid development.
 ## 📝 Rustpad
 **Collaborative Scratchpad (No Login Required).**
 The ultimate solution for working within Virtual Machines. It allows us to sync code snippets and configuration notes in real-time without the friction of personal session logins or account management.
+https://rustpad.io
 
 ## 🐙 GitHub
 **The Source of Truth.**
